@@ -10,4 +10,6 @@ Steps to install and run:
   - install using:
     `sudo snap install <file>.snap --devmode --dangerous`
   - Run 
-    `sudo snap run mpv-frame <videofile>
+    `sudo snap run mpv-frame --vo opengl <videofile>`
+  - If problem with audio or no audio devies found error:
+    `sudo snap run mpv-frame --vo opengl --no-audio <videofile>`
