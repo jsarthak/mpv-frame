@@ -50,7 +50,7 @@ plugs:
 
 apps:
   mpv-frame:
-    command: run-daemon wayland-launch $SNAP/usr/bin/mpv 
+    command: run-daemon wayland-launch $SNAP/usr/bin/mpv --vo opengl
     daemon: simple
     restart-condition: always
     environment:
